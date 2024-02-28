@@ -1,7 +1,11 @@
-const Tags = () => {
-  return (
-    <div>Tags</div>
-  )
-}
+import Button from "react-bootstrap/Button";
 
-export default Tags
+const Tags = (props) => {
+  return (
+    <Button variant={props.color} type="submit" style={{ height: "40px" }}>
+      {props.btnNombre}
+    </Button>
+  );
+};
+
+export default Tags;

@@ -1,6 +1,7 @@
-const Header = () => {
+const Header = (props) => {
+  console.log(props)
   return (
-    <div>Header</div>
+    <h1 className="container text-center p-4">{props.titulo} </h1>
   )
 }
 
