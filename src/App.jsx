@@ -6,7 +6,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <>
-      <Header titulo={"Adopta Un Perrito"} />
+      <Header titulo={"Adopta un Perrito"} />
       <div className="container">
         <div className="row">
           <div className="col-md-3">
