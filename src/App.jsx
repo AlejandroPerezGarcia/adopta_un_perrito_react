@@ -9,7 +9,7 @@ function App() {
       <Header titulo={"Adopta un Perrito"} />
       <div className="container">
         <div className="row">
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <MyCard
               imagen="http://images.pexels.com/photos/3361723/pexels-photo-3361723.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               nombre="Bartolo"
@@ -18,7 +18,7 @@ function App() {
               btnNombre="Husky"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <MyCard
               imagen="https://images.pexels.com/photos/1458908/pexels-photo-1458908.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               nombre="Messi"
@@ -27,7 +27,7 @@ function App() {
               btnNombre="Bobtail"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <MyCard
               imagen="https://images.pexels.com/photos/2023384/pexels-photo-2023384.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               nombre="Gohan"
@@ -36,7 +36,7 @@ function App() {
               btnNombre="Shar Pei"
             />
           </div>
-          <div className="col-md-3">
+          <div className="col-md-3 col-3">
             <MyCard
               imagen="https://images.pexels.com/photos/3687770/pexels-photo-3687770.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               nombre="Princesa"

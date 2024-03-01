@@ -1,10 +1,10 @@
-import Button from "react-bootstrap/Button";
+import Badge from "react-bootstrap/Badge";
 
 const Tags = (props) => {
   return (
-    <Button variant={props.color} type="submit" style={{ height: "40px" }}>
+    <Badge bg={props.color} style={{ height: "25px" }}>
       {props.btnNombre}
-    </Button>
+    </Badge>
   );
 };
 
