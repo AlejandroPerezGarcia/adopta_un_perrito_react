@@ -5,13 +5,13 @@ import Tags from "./Tags";
 
 const MyCard = (props) => {
   return (
-    <Row className="g-4 p-4">
-      <Col>
-        <Card style={{ width: "18rem", height: "39rem" }}>
+    <Row>
+      <Col className="g-4 p-4">
+        <Card style={{ width: "15rem", height: "33rem" }}>
           <Card.Img
             variant="top"
             src={props.imagen}
-            style={{ width: "18rem", height: "25rem" }}
+            style={{ width: "15rem", height: "20rem" }}
           />
           <Card.Body>
             <Card.Title className="text-center">{props.nombre}</Card.Title>
